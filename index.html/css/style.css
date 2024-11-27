@@ -1,0 +1,1070 @@
+/* screen - desktop-1 */
+
+.desktop-1 {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  height: 1564.72vw;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.desktop-1 .overlap-group4 {
+  height: 1565.07vw;
+  margin-left: -16.04vw;
+  position: relative;
+  width: 138.96vw;
+}
+
+.desktop-1 .overlap-group {
+  height: 462.64vw;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 123.4vw;
+}
+
+.desktop-1 .x1 {
+  height: 62.5vw;
+  left: 16.04vw;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+
+.desktop-1 .x2 {
+  height: 62.5vw;
+  left: 16.04vw;
+  position: absolute;
+  top: 62.5vw;
+  width: 100vw;
+}
+
+.desktop-1 .clip-path-group {
+  height: 62.08vw;
+  left: 16.04vw;
+  position: absolute;
+  top: 125vw;
+  width: 100vw;
+}
+
+.speaker {
+  position: fixed; /* Cố định vị trí để luôn ở phía bên phải */
+  top: 20px; /* Điều chỉnh khoảng cách từ cạnh trên */
+  right: 20px; /* Đẩy hình ảnh sát cạnh phải */
+  width: 70px; /* Chiều rộng của hình ảnh (tương tự kích thước logo) */
+  height: auto; /* Tự động điều chỉnh chiều cao dựa trên tỷ lệ hình ảnh */
+  z-index: 1000; /* Đảm bảo hình ảnh nằm trên các phần tử khác */
+  transition: filter 0.3s ease, background-color 0.3s ease;
+}
+.speaker.clicked {
+  filter: brightness(0) saturate(100%) invert(13%) sepia(8%) saturate(0%)
+    hue-rotate(192deg) brightness(95%) contrast(93%);
+}
+
+.desktop-1 .x4 {
+  height: 275.56vw;
+  left: 16.04vw;
+  position: absolute;
+  top: 187.08vw;
+  width: 100vw;
+}
+
+.desktop-1 .bling {
+  height: 56.67vw;
+  left: 17.71vw;
+  object-fit: cover;
+  position: absolute;
+  top: 2.5vw;
+  width: 93.61vw;
+}
+
+.desktop-1 .star {
+  height: 63.96vw;
+  left: 16.04vw;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+
+.desktop-1 .moon {
+  height: 42.01vw;
+  left: 45.14vw;
+  position: absolute;
+  top: 11.32vw;
+  width: 41.74vw;
+  transition: transform 0.3s ease-in-out;
+}
+
+.moon:hover {
+  animation: sway 3s ease-in-out infinite !important; /* Chạy animation sway trong 3s và lặp lại vô hạn */
+}
+
+@keyframes sway {
+  0% {
+    transform: rotate(0deg); /* Bắt đầu ở vị trí ban đầu */
+  }
+  25% {
+    transform: rotate(10deg); /* Lắc qua phải một chút */
+  }
+  50% {
+    transform: rotate(-10deg); /* Lắc qua trái một chút */
+  }
+  75% {
+    transform: rotate(10deg); /* Lắc qua phải một lần nữa */
+  }
+  100% {
+    transform: rotate(0deg); /* Quay lại vị trí ban đầu */
+  }
+}
+
+.desktop-1 .birds {
+  height: 11.46vw;
+  left: 29.44vw;
+  object-fit: cover;
+  position: absolute;
+  top: 66.81vw;
+  width: 74.86vw;
+}
+
+.desktop-1 .sea {
+  height: 54.1vw;
+  left: 15.69vw;
+  object-fit: cover;
+  position: absolute;
+  top: 81.11vw;
+  width: 100.49vw;
+}
+
+.desktop-1 .text {
+  height: 9.86vw;
+  left: 49.58vw;
+  object-fit: cover;
+  position: absolute;
+  top: 60.21vw;
+  width: 32.85vw;
+}
+
+.desktop-1 .bling-1 {
+  height: 59.58vw;
+  left: 16.04vw;
+  position: absolute;
+  top: 117.36vw;
+  width: 98.54vw;
+}
+
+.desktop-1 .girls {
+  height: 69.38vw;
+  left: 21.25vw;
+  object-fit: cover;
+  position: absolute;
+  top: 116.18vw;
+  width: 90.28vw;
+}
+
+.desktop-1 .text-2 {
+  height: 9.79vw;
+  left: 48.12vw;
+  top: 190vw;
+  width: 40.14vw;
+}
+
+.desktop-1 .bling-2 {
+  height: 27.92vw;
+  left: 20.21vw;
+  position: absolute;
+  top: 180.97vw;
+  width: 31.53vw;
+}
+
+.desktop-1 .blings {
+  height: 54.86vw;
+  left: 40.49vw;
+  object-fit: cover;
+  position: absolute;
+  top: 202.43vw;
+  width: 66.46vw;
+}
+
+.desktop-1 .blings-melody {
+  height: 75.35vw;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 266.53vw;
+  width: 123.4vw;
+}
+
+.desktop-1 .melody {
+  height: 134.93vw;
+  left: 16.04vw;
+  position: absolute;
+  top: 199.1vw;
+  width: 100vw;
+}
+
+.desktop-1 .rectangle {
+  height: 26.04vw;
+  left: 58.75vw;
+  position: absolute;
+  top: 223.68vw;
+  width: 39.1vw;
+}
+
+.desktop-1 .melody-1 {
+  height: 129.79vw;
+  left: 50.62vw;
+  position: absolute;
+  top: 204.86vw;
+  width: 65.42vw;
+}
+
+.desktop-1 .notes {
+  height: 42.43vw;
+  left: 55.14vw;
+  position: absolute;
+  top: 209.72vw;
+  width: 49.38vw;
+  display: none; /* Ẩn hình ảnh notes mặc định */
+  transition: opacity 1s ease, transform 1s ease; /* Thêm hiệu ứng mượt mà khi hiển thị */
+  opacity: 0;
+}
+
+.notes.show {
+  display: block; /* Hiển thị hình ảnh */
+  opacity: 1; /* Đặt độ mờ thành 100% */
+  transform: scale(1);
+}
+
+.desktop-1 .text-3 {
+  height: 10.14vw;
+  left: 29.79vw;
+  top: 211.32vw;
+  width: 40.97vw;
+}
+
+.desktop-1 .notes-1 {
+  height: 47.08vw;
+  left: 40.21vw;
+  position: absolute;
+  top: 301.81vw;
+  width: 52.85vw;
+}
+
+.desktop-1 .girl {
+  height: 38.26vw;
+  left: 35.49vw;
+  object-fit: cover;
+  position: absolute;
+  top: 404.65vw;
+  width: 61.11vw;
+}
+
+.desktop-1 .blings-water {
+  height: 57.78vw;
+  left: 50.9vw;
+  position: absolute;
+  top: 348.96vw;
+  width: 42.15vw;
+}
+
+.desktop-1 .text-4 {
+  height: 11.11vw;
+  left: 38.82vw;
+  top: 446.94vw;
+  width: 57.43vw;
+}
+
+.desktop-1 .frame-2 {
+  height: 579.31vw;
+  left: 15.97vw;
+  top: 462.43vw;
+  width: 100.63vw;
+}
+
+.desktop-1 .overlap-group2 {
+  height: 590.76vw;
+  margin-left: -16.88vw;
+  margin-top: -11.46vw;
+  position: relative;
+  width: 144.1vw;
+}
+
+.desktop-1 .bg {
+  height: 579.31vw;
+  left: 16.94vw;
+  position: absolute;
+  top: 11.46vw;
+  width: 100vw;
+}
+
+.desktop-1 .rectangle-1 {
+  height: 66.18vw;
+  left: 33.82vw;
+  position: absolute;
+  top: 34.93vw;
+  width: 66.67vw;
+}
+
+.desktop-1 .text-5 {
+  height: 9.58vw;
+  left: 49.31vw;
+  top: 63.26vw;
+  width: 35.07vw;
+}
+
+.desktop-1 .ground {
+  height: 32.08vw;
+  left: 18.19vw;
+  object-fit: cover;
+  position: absolute;
+  top: 125.83vw;
+  width: 73.33vw;
+}
+
+.desktop-1 .girl-1 {
+  height: 30.14vw;
+  left: 33.75vw;
+  top: 113.54vw;
+  width: 30.14vw;
+}
+
+.desktop-1 .lights {
+  align-items: flex-end;
+  display: flex;
+  height: 140.83vw;
+  left: 10.49vw;
+  padding: 0 6.46vw;
+  position: absolute;
+  top: 0;
+  width: 119.51vw;
+}
+
+.desktop-1 .overlap-group1 {
+  height: 86.6vw;
+  position: relative;
+  width: 100vw;
+}
+
+.desktop-1 .overlap-group-1 {
+  height: 74.79vw;
+  left: 29.72vw;
+  position: absolute;
+  top: 11.81vw;
+  width: 70.28vw;
+}
+
+.desktop-1 .rectangle-2 {
+  height: 43.12vw;
+  left: 40.21vw;
+  position: absolute;
+  top: 0;
+  width: 30.07vw;
+}
+
+.desktop-1 .rectangle-3 {
+  height: 33.61vw;
+  left: 0;
+  position: absolute;
+  top: 41.18vw;
+  width: 43.12vw;
+}
+
+.desktop-1 .rectangle-4 {
+  height: 38.96vw;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 32.5vw;
+}
+
+.desktop-1 .bling-3 {
+  height: 27.5vw;
+  left: 61.88vw;
+  position: absolute;
+  top: 89.1vw;
+  width: 15.83vw;
+}
+
+.desktop-1 .color-line {
+  height: 285.69vw;
+  left: 18.54vw;
+  position: absolute;
+  top: 15.07vw;
+  width: 98.4vw;
+}
+
+.desktop-1 .bling-4 {
+  height: 144.58vw;
+  left: 24.1vw;
+  position: absolute;
+  top: 146.94vw;
+  width: 72.43vw;
+}
+
+.desktop-1 .starfish {
+  height: 29.72vw;
+  left: 46.67vw;
+  object-fit: cover;
+  position: absolute;
+  top: 209.51vw;
+  width: 45.49vw;
+}
+
+.desktop-1 .text-6 {
+  height: 9.72vw;
+  left: 53.06vw;
+  top: 181.25vw;
+  width: 35.42vw;
+}
+
+.desktop-1 .starfish-1 {
+  height: 30.76vw;
+  left: 47.78vw;
+  position: absolute;
+  top: 206.74vw;
+  width: 41.04vw;
+  cursor: grab; /* Thêm hiệu ứng khi chuột di chuyển vào */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Thêm hiệu ứng mờ và di chuyển */
+}
+
+/* Khi phần tử được ẩn */
+.desktop-1 .starfish-1.hidden {
+  opacity: 0; /* Đặt độ mờ của phần tử là 0 để ẩn */
+  pointer-events: none; /* Vô hiệu hóa tương tác khi ẩn */
+}
+
+/* Khi kéo thả */
+.desktop-1 .starfish-1.grabbing {
+  cursor: grabbing; /* Thay đổi con trỏ thành 'grabbing' khi kéo */
+}
+
+/* Bạn có thể thêm hiệu ứng di chuyển nếu muốn thay đổi khi kéo */
+.desktop-1 .starfish-1.dragging {
+  transform: scale(1.1); /* Ví dụ: làm cho hình ảnh phóng to khi đang kéo */
+}
+
+.desktop-1 .light-balls {
+  align-items: flex-start;
+  display: flex;
+  gap: 15.21vw;
+  height: 93.12vw;
+  left: 0;
+  padding: 0 10.42vw;
+  position: absolute;
+  top: 167.15vw;
+  width: 127.36vw;
+}
+
+.desktop-1 .overlap-group-2 {
+  height: 70.21vw;
+  margin-left: 6.53vw;
+  position: relative;
+  width: 42.57vw;
+}
+
+.desktop-1 .group {
+  background-image: url(../img/rectangle-5.png);
+  background-size: 100% 100%;
+  height: 38.68vw;
+  left: 3.89vw;
+  mix-blend-mode: color-dodge;
+  position: absolute;
+  top: 0;
+  width: 38.68vw;
+}
+
+.desktop-1 .rectangle-5 {
+  height: 41.74vw;
+  left: 0;
+  position: absolute;
+  top: 28.47vw;
+  width: 24.79vw;
+}
+
+.desktop-1 .flex-col {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 1.81vw;
+  min-height: 89.86vw;
+  width: 42.22vw;
+}
+
+.desktop-1 .rectangle-6 {
+  height: 35.42vw;
+  width: 30.49vw;
+}
+
+.desktop-1 .rectangle-7 {
+  height: 52.64vw;
+  width: 42.22vw;
+}
+
+.desktop-1 .bling-5 {
+  height: 48.47vw;
+  left: 65.49vw;
+  position: absolute;
+  top: 171.88vw;
+  width: 43.33vw;
+}
+
+.desktop-1 .dirt {
+  height: 168.26vw;
+  left: 9.93vw;
+  object-fit: cover;
+  position: absolute;
+  top: 326.32vw;
+  width: 134.17vw;
+}
+
+.desktop-1 .chaos {
+  height: 112.78vw;
+  left: 15.9vw;
+  object-fit: cover;
+  position: absolute;
+  top: 252.57vw;
+  width: 64.38vw;
+}
+
+.desktop-1 .bling-6 {
+  height: 55.42vw;
+  left: 35.83vw;
+  position: absolute;
+  top: 368.82vw;
+  width: 66.6vw;
+}
+
+.desktop-1 .girl-run {
+  height: 37.57vw;
+  left: 72.43vw;
+  top: 358.19vw;
+  width: 27.36vw;
+}
+
+.desktop-1 .bling-7 {
+  height: 39.44vw;
+  left: 27.43vw;
+  position: absolute;
+  top: 424.24vw;
+  width: 76.18vw;
+}
+
+.desktop-1 .moon-1 {
+  height: 22.15vw;
+  left: 57.71vw;
+  object-fit: cover;
+  position: absolute;
+  top: 438.61vw;
+  width: 21.46vw;
+}
+
+.desktop-1 .sea-1 {
+  height: 34.44vw;
+  left: 16.88vw;
+  top: 473.06vw;
+  width: 100.14vw;
+}
+
+.desktop-1 .text-7 {
+  height: 9.72vw;
+  left: 65.49vw;
+  top: 296.25vw;
+  width: 35.21vw;
+}
+
+.desktop-1 .text-8 {
+  height: 9.72vw;
+  left: 64.24vw;
+  top: 483.4vw;
+  width: 49.65vw;
+}
+
+.desktop-1 .chaos-2 {
+  height: 57.99vw;
+  left: 19.65vw;
+  object-fit: cover;
+  position: absolute;
+  top: 483.4vw;
+  width: 39.51vw;
+  z-index: 1;
+}
+
+.desktop-1 .bubbles {
+  height: 50.21vw;
+  left: 19.65vw;
+  position: absolute;
+  top: 469.44vw;
+  width: 97.29vw;
+}
+
+.desktop-1 .girl-2 {
+  height: 34.1vw;
+  left: 80.07vw;
+  top: 504.58vw;
+  width: 17.99vw;
+}
+
+.desktop-1 .text-9 {
+  height: 9.72vw;
+  left: 46.74vw;
+  top: 547.08vw;
+  width: 46.04vw;
+}
+
+.desktop-1 .frame-3 {
+  height: 523.75vw;
+  left: 15.83vw;
+  padding: 0.35vw 0;
+  top: 1041.32vw;
+  width: 100.69vw;
+}
+
+.desktop-1 .overlap-group3 {
+  height: 523.06vw;
+  margin-left: -4.51vw;
+  position: relative;
+  width: 106.25vw;
+}
+
+.desktop-1 .clip-path-group-container {
+  height: 523.06vw;
+  left: 4.86vw;
+  top: 0;
+}
+
+.desktop-1 .clip-path-group-1 {
+  height: 261.53vw;
+  left: 0;
+  top: 0;
+}
+
+.desktop-1 .clip-path-group-2 {
+  height: 261.53vw;
+  left: 0;
+  top: 261.46vw;
+}
+
+.desktop-1 .cloud-1 {
+  height: 27.85vw;
+  left: 2.99vw;
+  object-fit: cover;
+  position: absolute;
+  top: 37.92vw;
+  width: 79.24vw;
+}
+
+.desktop-1 .cloud2-1 {
+  height: 13.75vw;
+  left: 77.57vw;
+  object-fit: cover;
+  position: absolute;
+  top: 81.11vw;
+  width: 27.71vw;
+}
+
+.desktop-1 .cloud3-1 {
+  height: 30.76vw;
+  left: 2.85vw;
+  object-fit: cover;
+  position: absolute;
+  top: 111.32vw;
+  width: 69.17vw;
+}
+
+@keyframes moveClouds {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Áp dụng hiệu ứng cho từng đám mây */
+.cloud-1 {
+  position: absolute; /* Đảm bảo đám mây được đặt chính xác */
+  top: 20%; /* Đặt vị trí dọc */
+  left: -100%; /* Bắt đầu từ ngoài khung nhìn */
+  animation: moveClouds 10s linear infinite; /* Thời gian và loop */
+}
+
+.cloud2-1 {
+  position: absolute;
+  top: 40%; /* Vị trí dọc khác nhau để tạo sự tự nhiên */
+  left: -100%;
+  animation: moveClouds 5s linear infinite; /* Thời gian chậm hơn */
+}
+
+.cloud3-1 {
+  position: absolute;
+  top: 60%;
+  left: -100%;
+  animation: moveClouds 10s linear infinite; /* Thời gian trung bình */
+}
+
+.desktop-1 .sea-1-1 {
+  height: 57.36vw;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 163.12vw;
+  width: 106.25vw;
+}
+
+.desktop-1 .wave-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 20.69vw;
+  min-height: 25.9vw;
+  position: absolute;
+  top: 170.35vw;
+  width: 85.35vw;
+}
+
+.desktop-1 .wave-3 {
+  align-self: center;
+  height: 4.93vw;
+  margin-left: 28.47vw;
+  object-fit: cover;
+  width: 22.71vw;
+}
+
+.desktop-1 .wave-1-1 {
+  height: 2.15vw;
+  margin-top: 6.25vw;
+  object-fit: cover;
+  width: 21.25vw;
+}
+
+.desktop-1 .wave-2 {
+  align-self: flex-end;
+  height: 2.92vw;
+  margin-top: 9.65vw;
+  object-fit: cover;
+  width: 34.24vw;
+}
+
+.desktop-1 .sun-1 {
+  height: 68.26vw;
+  left: 20.69vw;
+  object-fit: cover;
+  position: absolute;
+  top: 53.82vw;
+  width: 68.26vw;
+}
+
+.desktop-1 .circle {
+  height: 66.18vw;
+  left: 21.81vw;
+  object-fit: cover;
+  position: absolute;
+  top: 251.53vw;
+  width: 66.18vw;
+}
+
+.desktop-1 .text-10 {
+  height: 9.72vw;
+  left: 32.01vw;
+  top: 285.21vw;
+  width: 45.9vw;
+}
+
+.desktop-1 .girl-3 {
+  height: 42.64vw;
+  left: 37.43vw;
+  top: 196.25vw;
+  width: 36.25vw;
+}
+
+.desktop-1 .stone {
+  height: 5.76vw;
+  left: 73.96vw;
+  object-fit: cover;
+  position: absolute;
+  top: 233.12vw;
+  width: 7.29vw;
+}
+
+.desktop-1 .sand-1 {
+  height: 51.6vw;
+  left: 4.51vw;
+  object-fit: cover;
+  position: absolute;
+  top: 363.68vw;
+  width: 100.14vw;
+}
+
+.desktop-1 .sea-2 {
+  height: 24.17vw;
+  left: 4.86vw;
+  top: 363.68vw;
+  width: 100.35vw;
+}
+
+.desktop-1 .big-shadow {
+  height: 70.9vw;
+  left: 12.78vw;
+  object-fit: cover;
+  position: absolute;
+  top: 316.94vw;
+  width: 42.01vw;
+}
+
+.desktop-1 .waves-2 {
+  height: 14.51vw;
+  left: 5.9vw;
+  object-fit: cover;
+  position: absolute;
+  top: 375.76vw;
+  width: 99.38vw;
+}
+
+.desktop-1 .dark-sand {
+  height: 18.68vw;
+  left: 4.17vw;
+  object-fit: cover;
+  position: absolute;
+  top: 380.9vw;
+  width: 100.49vw;
+}
+
+.desktop-1 .small-shadow {
+  height: 18.54vw;
+  left: 71.67vw;
+  object-fit: cover;
+  position: absolute;
+  top: 387.85vw;
+  width: 7.71vw;
+}
+
+.desktop-1 .text-11 {
+  height: 10.62vw;
+  left: 22.01vw;
+  top: 421.32vw;
+  width: 67.15vw;
+}
+
+.desktop-1 .sand {
+  height: 66.74vw;
+  left: 4.03vw;
+  object-fit: cover;
+  position: absolute;
+  top: 995.35vw;
+  width: 117.78vw;
+}
+
+.desktop-1 .stone-1 {
+  height: 25.62vw;
+  left: 49.79vw;
+  object-fit: cover;
+  position: absolute;
+  top: 1010.21vw;
+  width: 34.44vw;
+}
+
+.desktop-1 .clip-path-group-3 {
+  position: absolute;
+  width: 99.86vw;
+}
+
+.desktop-1 .frame {
+  align-items: flex-start;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+}
+
+.desktop-1 .girl-4 {
+  object-fit: cover;
+  position: absolute;
+}
+
+.desktop-1 .sea-3 {
+  object-fit: cover;
+  position: absolute;
+}
+
+.desktop-1 .text-1 {
+  object-fit: cover;
+  position: absolute;
+}
+
+/* Define the fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Class to apply the fade-in effect */
+.fade-in {
+  opacity: 0; /* Bắt đầu với trạng thái ẩn */
+  animation: fadeInEffect 2s ease-in-out forwards; /* Tạo hiệu ứng */
+}
+
+/* Keyframes cho fade-in */
+@keyframes fadeInEffect {
+  0% {
+    opacity: 0; /* Hoàn toàn ẩn */
+  }
+  100% {
+    opacity: 1; /* Hoàn toàn hiện */
+  }
+}
+
+.fade-in.visible {
+  opacity: 1;
+  animation: fadeIn 2s forwards;
+}
+
+.bling-4.fade-in {
+  opacity: 1;
+  animation: fadeIn 10s forwards;
+}
+/*bling bling*/
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.blink {
+  animation: blink 2s infinite;
+}
+
+/*wiggle*/
+@keyframes sway {
+  0% {
+    transform: rotate(2deg); /* Trạng thái ban đầu */
+  }
+  25% {
+    transform: rotate(-2deg); /* Xoay nhẹ sang trái */
+  }
+  50% {
+    transform: rotate(2deg); /* Trở lại vị trí ban đầu */
+  }
+  75% {
+    transform: rotate(-2deg); /* Xoay nhẹ sang phải */
+  }
+  100% {
+    transform: rotate(2deg); /* Kết thúc tại vị trí ban đầu */
+  }
+}
+
+.sway {
+  display: inline-block;
+  animation: sway 3s ease-in-out infinite; /* Hiệu ứng lặp vô hạn */
+}
+
+.fade-in-sway {
+  animation: fadeIn 2s ease-in-out, sway 2s infinite ease-in-out;
+}
+
+.slide-out-top {
+  -webkit-animation: slide-out-top 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  animation: slide-out-top 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+@-webkit-keyframes slide-out-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+}
+@keyframes slide-out-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(-1000px);
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+}
+/* Hiệu ứng slide-in-blurred-top */
+.slide-in-blurred-top {
+  -webkit-animation: slide-in-blurred-top 3s cubic-bezier(0.23, 1, 0.32, 1) both;
+  animation: slide-in-blurred-top 3s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+/* ---------------------------------------------- */
+/* animation slide-in-blurred-top */
+@-webkit-keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+/* Định nghĩa trạng thái ban đầu */
+.starfish {
+  transition: all 0.3s ease; /* Hiệu ứng mượt khi thay đổi */
+  filter: brightness(1); /* Độ sáng mặc định */
+  pointer-events: auto;
+}
+
+/* Khi được click */
+.starfish.active {
+  filter: brightness(1.5); /* Tăng độ sáng */
+  transform: scale(1.1); /* Tăng kích thước nhẹ */
+}
+
+.no-hover {
+  pointer-events: none; /* Ngăn chặn tương tác chuột */
+  filter: none; /* Loại bỏ hiệu ứng filter */
+  transform: none; /* Loại bỏ hiệu ứng transform */
+  transition: none; /* Loại bỏ hiệu ứng chuyển đổi */
+}
